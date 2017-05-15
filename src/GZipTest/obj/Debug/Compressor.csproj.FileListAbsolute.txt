@@ -1,0 +1,5 @@
+F:\prj\test-work\Compressor\Compressor\Compressor\bin\Debug\Compressor.exe
+F:\prj\test-work\Compressor\Compressor\Compressor\bin\Debug\Compressor.pdb
+F:\prj\test-work\Compressor\Compressor\Compressor\obj\Debug\Compressor.csprojResolveAssemblyReference.cache
+F:\prj\test-work\Compressor\Compressor\Compressor\obj\Debug\Compressor.exe
+F:\prj\test-work\Compressor\Compressor\Compressor\obj\Debug\Compressor.pdb

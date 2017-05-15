@@ -1,0 +1,13 @@
+F:\prj\test-work\Compressor\src\UnitTests\bin\Debug\UnitTests.dll
+F:\prj\test-work\Compressor\src\UnitTests\bin\Debug\UnitTests.pdb
+F:\prj\test-work\Compressor\src\UnitTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+F:\prj\test-work\Compressor\src\UnitTests\obj\Debug\UnitTests.csprojResolveAssemblyReference.cache
+F:\prj\test-work\Compressor\src\UnitTests\obj\Debug\UnitTests.dll
+F:\prj\test-work\Compressor\src\UnitTests\obj\Debug\UnitTests.pdb
+F:\prj\test-work\Compressor\bin\Debug\UnitTests.dll
+F:\prj\test-work\Compressor\bin\Debug\UnitTests.pdb
+C:\prj\Compressor\bin\Debug\UnitTests.dll
+C:\prj\Compressor\bin\Debug\UnitTests.pdb
+C:\prj\Compressor\src\UnitTests\obj\Debug\UnitTests.csprojResolveAssemblyReference.cache
+C:\prj\Compressor\src\UnitTests\obj\Debug\UnitTests.dll
+C:\prj\Compressor\src\UnitTests\obj\Debug\UnitTests.pdb
