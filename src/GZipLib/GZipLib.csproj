@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B6C660C3-70EE-4CF8-B705-5358D0C3B4DA}</ProjectGuid>
+    <ProjectGuid>{EBA79B61-73E6-47F9-A9BB-11D45828E4CA}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>GZipTest</RootNamespace>
-    <AssemblyName>GZipTest</AssemblyName>
+    <RootNamespace>GZipLib</RootNamespace>
+    <AssemblyName>GZipLib</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

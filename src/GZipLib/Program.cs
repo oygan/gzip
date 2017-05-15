@@ -1,10 +1,10 @@
 ﻿using System;
 using System.IO;
-using GZipTest.Common;
-using GZipTest.Compressor;
-using GZipTest.Decompressor;
+using GZipLib.Common;
+using GZipLib.Compressor;
+using GZipLib.Decompressor;
 
-namespace GZipTest
+namespace GZipLib
 {
     /// <summary>
     /// Реализем консольный интерфейс.

@@ -1,4 +1,4 @@
-﻿namespace GZipTest.Common
+﻿namespace GZipLib.Common
 {
     /// <summary>
     /// Выполняемая задача\работа. Потомки конкретезируют задачу.

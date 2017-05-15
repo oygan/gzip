@@ -1,4 +1,4 @@
-﻿namespace GZipTest.Common
+﻿namespace GZipLib.Common
 {
     /// <summary>
     /// Класс с параметрами настроек для методов сжатия и разжатия файлов. 

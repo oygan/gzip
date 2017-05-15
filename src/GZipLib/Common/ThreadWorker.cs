@@ -1,6 +1,6 @@
 ﻿using System.Threading;
 
-namespace GZipTest.Common
+namespace GZipLib.Common
 {
     /// <summary>
     /// "Обертка" для потока, для выполнения поставленых задач. 

@@ -1,8 +1,8 @@
 using System.IO;
 using System.IO.Compression;
-using GZipTest.Common;
+using GZipLib.Common;
 
-namespace GZipTest.Decompressor
+namespace GZipLib.Decompressor
 {
     /// <summary>
     /// Распаковывает отдельный кусочек.

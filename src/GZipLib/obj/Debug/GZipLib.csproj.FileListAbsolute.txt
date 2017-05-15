@@ -1,0 +1,5 @@
+C:\prj\Compressor\bin\Debug\GZipLib.exe
+C:\prj\Compressor\bin\Debug\GZipLib.pdb
+C:\prj\Compressor\src\GZipLib\obj\Debug\GZipLib.csprojResolveAssemblyReference.cache
+C:\prj\Compressor\src\GZipLib\obj\Debug\GZipLib.exe
+C:\prj\Compressor\src\GZipLib\obj\Debug\GZipLib.pdb

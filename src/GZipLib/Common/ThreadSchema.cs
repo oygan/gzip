@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.IO;
 
-namespace GZipTest.Common
+namespace GZipLib.Common
 {
     /// <summary>
     /// Этот класс реализует механизм работы с потоками. 

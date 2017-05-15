@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
-using GZipTest.Common;
-using GZipTest.Compressor;
+using GZipLib.Common;
+using GZipLib.Compressor;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace UnitTests

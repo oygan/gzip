@@ -59,9 +59,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\GZipTest\GZipTest.csproj">
-      <Project>{b6c660c3-70ee-4cf8-b705-5358d0c3b4da}</Project>
-      <Name>GZipTest</Name>
+    <ProjectReference Include="..\GZipLib\GZipLib.csproj">
+      <Project>{eba79b61-73e6-47f9-a9bb-11d45828e4ca}</Project>
+      <Name>GZipLib</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>

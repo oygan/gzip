@@ -1,4 +1,4 @@
-﻿namespace GZipTest.Common
+﻿namespace GZipLib.Common
 {
     /// <summary>
     /// Утилитные функции для работы с байтами

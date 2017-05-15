@@ -1,8 +1,8 @@
 ﻿using System.IO;
 using System.IO.Compression;
-using GZipTest.Common;
+using GZipLib.Common;
 
-namespace GZipTest.Compressor
+namespace GZipLib.Compressor
 {
     /// <summary>
     /// Сжимает отдельную часть файла.

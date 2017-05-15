@@ -1,4 +1,4 @@
-﻿namespace GZipTest.Common
+﻿namespace GZipLib.Common
 {
     /// <summary>
     /// Содержит результат работы потока

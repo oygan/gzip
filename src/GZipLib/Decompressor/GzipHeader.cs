@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace GZipTest.Decompressor
+namespace GZipLib.Decompressor
 {
     /// <summary>
     /// Спецификация Gzip заголовока

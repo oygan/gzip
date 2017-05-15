@@ -1,4 +1,4 @@
-﻿namespace GZipTest.Common
+﻿namespace GZipLib.Common
 {
     /// <summary>
     /// Позволяет получить следующую порцию работы. 

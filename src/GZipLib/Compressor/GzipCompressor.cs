@@ -1,8 +1,8 @@
 ﻿using System;
 using System.IO;
-using GZipTest.Common;
+using GZipLib.Common;
 
-namespace GZipTest.Compressor
+namespace GZipLib.Compressor
 {
     /// <summary>
     /// Точка входа для алгоритмов сжатия файла с помощью System.IO.Compression.GzipStream.

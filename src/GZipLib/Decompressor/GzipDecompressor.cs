@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using GZipTest.Common;
+using GZipLib.Common;
 
-namespace GZipTest.Decompressor
+namespace GZipLib.Decompressor
 {
     /// <summary>
     /// Точка входа для алгоритмов извлечения файла из архива Gzip. Работает в многопоточном режиме. 
