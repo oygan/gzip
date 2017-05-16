@@ -1,29 +1,29 @@
-using System.IO;
+п»їusing System.IO;
 using System.IO.Compression;
 using GZipLib.Common;
 
 namespace GZipLib.Decompressor
 {
     /// <summary>
-    /// Распаковывает отдельный кусочек.
+    /// Р Р°СЃРїР°РєРѕРІС‹РІР°РµС‚ РѕС‚РґРµР»СЊРЅСѓСЋ С‡Р°СЃС‚СЊ С„Р°Р№Р»Р°.
     /// </summary>
     class GzipDecompressWorker : BaseJob
     {
         /// <summary>
-        /// Имя архива файла.
+        /// РРјСЏ Р°СЂС…РёРІР° С„Р°Р№Р»Р°.
         /// </summary>
         private readonly string _archiveFilename;
 
         /// <summary>
-        /// Позиция с которой начать конвертацию.
+        /// РџРѕР·РёС†РёСЏ СЃ РєРѕС‚РѕСЂРѕР№ РЅР°С‡Р°С‚СЊ РєРѕРЅРІРµСЂС‚Р°С†РёСЋ.
         /// </summary>
         private readonly long _blockPosition;
 
         /// <summary>
-        /// Создает экземпляр класса.
+        /// РЎРѕР·РґР°РµС‚ СЌРєР·РµРјРїР»СЏСЂ РєР»Р°СЃСЃР°.
         /// </summary>
-        /// <param name="archiveFilename">Имя архива файла.</param>
-        /// <param name="blockPosition">Позиция с которой начать конвертацию.</param>
+        /// <param name="archiveFilename">РРјСЏ Р°СЂС…РёРІР° С„Р°Р№Р»Р°.</param>
+        /// <param name="blockPosition">РџРѕР·РёС†РёСЏ СЃ РєРѕС‚РѕСЂРѕР№ РЅР°С‡Р°С‚СЊ РєРѕРЅРІРµСЂС‚Р°С†РёСЋ.</param>
         public GzipDecompressWorker(string archiveFilename, long blockPosition)
         {
             _archiveFilename = archiveFilename;
@@ -31,15 +31,15 @@ namespace GZipLib.Decompressor
         }
 
         /// <summary>
-        /// Распаковывает отдельный кусочек.
+        /// Р Р°СЃРїР°РєРѕРІС‹РІР°РµС‚ РѕС‚РґРµР»СЊРЅС‹Р№ РєСѓСЃРѕС‡РµРє.
         /// </summary>
         public override void ProcessBlock()
         {
-            // открываем поток на чтение
+            // РѕС‚РєСЂС‹РІР°РµРј РїРѕС‚РѕРє РЅР° С‡С‚РµРЅРёРµ
             using (FileStream inputStream = new FileStream(_archiveFilename, FileMode.Open, FileAccess.Read))
             using (MemoryStream outputStream = new MemoryStream())
             {
-                // устанавливаем позицию и начинаем распоковывать блок
+                // СѓСЃС‚Р°РЅР°РІР»РёРІР°РµРј РїРѕР·РёС†РёСЋ Рё РЅР°С‡РёРЅР°РµРј СЂР°СЃРїРѕРєРѕРІС‹РІР°С‚СЊ Р±Р»РѕРє
                 inputStream.Position = _blockPosition;
                 using (GZipStream zipStream = new GZipStream(inputStream, CompressionMode.Decompress))
                 {
@@ -54,7 +54,7 @@ namespace GZipLib.Decompressor
                     }
                 }
 
-                // создать и записать результат
+                // СЃРѕР·РґР°С‚СЊ Рё Р·Р°РїРёСЃР°С‚СЊ СЂРµР·СѓР»СЊС‚Р°С‚
                 var result = new WorkerResult();
                 result.JobData = outputStream.ToArray();
                 WriteResult(result);
